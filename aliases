@@ -1,0 +1,4 @@
+alias mdg="mix deps.get"
+alias mps="mix phx.server"
+alias test="mix test"
+alias c="iex -S mix"
