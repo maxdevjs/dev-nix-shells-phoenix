@@ -8,14 +8,14 @@ A [nix-shell](https://nixos.org/manual/nix/stable/#description-13) template to s
 
 Built gathering inspiration from several [sources](#resources), it makes available:
 
-- [Elixir](elixir-lang.org/) from beam
-- unstable.[elixir_ls](https://github.com/elixir-lsp/elixir-ls) ([LSP](https://microsoft.github.io/language-server-protocol/))
-- nodejs-12_x for WebPack swing
-- [rebar3](https://github.com/erlang/rebar3): Erlang build tool that makes it easy to compile and test Erlang applications and releases
+- `unstable.`[elixir](elixir-lang.org/)
+- `unstable.`[elixir_ls](https://github.com/elixir-lsp/elixir-ls) ([LSP](https://microsoft.github.io/language-server-protocol/))
+- nodejs-12_x for [WebPack](https://webpack.js.org/) swing
+- [rebar3](https://github.com/erlang/rebar3) via `setup` script: [erlang](https://www.erlang.org/) build tool that makes it easy to compile and test [erlang](https://www.erlang.org/) applications and releases
   - currently installed from the `setup` script: check [TODO](#todo)
 - [Phoenix](phoenixframework.org/) version `1.5.9` installed via `setup` script
-- [PostgreSQL](https://www.postgresql.org/) setup
-  - TODO: complete [PostgreSQL](https://www.postgresql.org/)
+- `unstable.`[postgresql_14](https://www.postgresql.org/) setup
+  - TODO: check/complete [PostgreSQL](https://www.postgresql.org/) section
 
 ### Working with a local PostgreSQL instance
 
