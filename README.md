@@ -4,16 +4,16 @@
 
 ## What is it?
 
-A [nix-shell](https://nixos.org/manual/nix/stable/#description-13) template to set a [Phoenix](phoenixframework.org/) development environment up with [direnv](https://github.com/direnv/direnv) integration (if installed).
+A [nix-shell](https://nixos.org/manual/nix/stable/#description-13) template to set a [Phoenix](https://www.phoenixframework.org/) development environment up with [direnv](https://github.com/direnv/direnv) integration (if installed).
 
 Built gathering inspiration from several [sources](#resources), it makes available:
 
-- `unstable.`[elixir](elixir-lang.org/)
+- `unstable.`[elixir](https://elixir-lang.org/)
 - `unstable.`[elixir_ls](https://github.com/elixir-lsp/elixir-ls) ([LSP](https://microsoft.github.io/language-server-protocol/))
 - nodejs-12_x for [WebPack](https://webpack.js.org/) swing
 - [rebar3](https://github.com/erlang/rebar3) via `setup` script: [erlang](https://www.erlang.org/) build tool that makes it easy to compile and test [erlang](https://www.erlang.org/) applications and releases
   - currently installed from the `setup` script: check [TODO](#todo)
-- [Phoenix](phoenixframework.org/) version `1.5.9` installed via `setup` script
+- [Phoenix](https://www.phoenixframework.org/) version `1.5.9` installed via `setup` script
 - `unstable.`[postgresql_14](https://www.postgresql.org/) setup
   - TODO: check/complete [PostgreSQL](https://www.postgresql.org/) section
 
